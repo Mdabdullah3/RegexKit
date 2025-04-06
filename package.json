@@ -1,0 +1,45 @@
+{
+  "name": "regexkit",
+  "version": "1.0.0",
+  "description": "A useful regex toolkit for validation, extraction, and escaping in JavaScript/TypeScript.",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "ts-node test/regexkit.test.ts"
+  },
+  "author": "Abdullah",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Mdabdullah3/RegexKit"
+  },
+  "homepage": "https://github.com/Mdabdullah3/RegexKit#readme",
+  "keywords": [
+    "regex",
+    "validation",
+    "extraction",
+    "escaping",
+    "javascript",
+    "typescript",
+    "utility",
+    "toolkit",
+    "regexkit",
+    "regex-utility",
+    "regex-toolkit",
+    "regex-validation",
+    "regex-extraction",
+    "regex-escaping"
+  ],
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3",
+    "vitest": "^3.1.1"
+  }
+}

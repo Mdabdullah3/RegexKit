@@ -4,9 +4,10 @@
   "description": "A useful regex toolkit for validation, extraction, and escaping in JavaScript/TypeScript.",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
+  "type": "module",
   "scripts": {
     "build": "tsc",
-    "test": "ts-node test/regexkit.test.ts"
+    "test": "node --loader ts-node/esm ./test/regexkit.test.ts"
   },
   "author": "Abdullah",
   "license": "MIT",

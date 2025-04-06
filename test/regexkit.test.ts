@@ -8,7 +8,7 @@ import {
   extractNumbers,
   escapeRegex,
   unescapeRegex,
-} from "../src";
+} from "../src/index.js";
 
 console.log(isValidEmail("hello@email.com")); // true
 console.log(isValidPhone("+880123456789")); // true
